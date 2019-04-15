@@ -1,0 +1,145 @@
+/* body {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1pc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif Caption', serif;
+}
+
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgba(232, 0, 170, 0.94);
+    font-size: 20px;
+}
+
+} */
+
+
+/* General setup */
+/* Remember to always comment*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1pc;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+    height: 420px;
+    background-color: #ef874580;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    float: left;
+    width: 55%;
+    margin-top: 25px;
+    border-bottom: 3px solid #a66;
+    border-right: 3px solid #a66;
+    border-left: 3px solid #a66;
+    box-shadow: 5px 5px 5px;
+  }
+
+  nav ul li  {
+    display: inline;
+    padding: 10px;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+  
+footer {
+    clear: both;
+  }
+
+.txt-ind {
+    text-indent: 20px;
+}
+  
+header, section, aside, nav, footer {
+    padding: 20px;
+  }
+
+aside ul li {
+    padding: 6px;
+}
+
+aside ul li a {
+    font-size: 18px;
+}
+
+.see-more {
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+footer p {
+    text-align: center
+}
+
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgba(232, 0, 170, 0.94);
+    font-size: 20px;
+}
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+
+
+  
+  /* I EDITED THE ORIGINAL CODE HERE */
+  

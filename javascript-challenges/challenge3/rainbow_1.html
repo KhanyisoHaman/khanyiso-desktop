@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rainbow Colors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    
+        body {
+            text-align: center;
+        }
+
+        .main {
+            margin-top: 150px;
+        }
+
+        h1 {
+            padding: 30px;
+        }
+
+        #red, #orange, #yellow, #green, #blue, #indigo, #violet {
+            border-radius: 10px;
+            width: 50%;
+            transform: translate(50%,-50%);
+        }
+
+        #red, #orange, #yellow, #green, #blue, #indigo, #violet:hover {
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- red, orange, yellow, green, blue, indigo and violet -->
+    <h1>Rainbow Colors</h1>
+        <section class="main">
+                
+            <article id="red" onclick="redFunction()" >
+                <h1>Red</h1>
+            </article>
+
+            <article id="orange" onclick="orangeFunction()"  >
+                <h1>Orange</h1>
+            </article>
+
+            <article id="yellow" onclick="yellowFunction()" >
+                <h1>Yellow</h1>
+            </article>
+
+            <article id="green" onclick="greenFunction()" >
+                <h1>Green</h1>
+            </article>
+
+            <article id="blue" onclick="blueFunction()" >
+                <h1>Blue</h1>
+            </article>
+
+            <article id="indigo" onclick="indigoFunction()" >
+                <h1>Indigo</h1>
+            </article>
+
+            <article id="violet" onclick="violetFunction()" >
+                <h1>Violet</h1>
+            </article>
+        </section>
+
+
+        <script>
+        
+        function redFunction() {
+            document.getElementById("red").style.backgroundColor="red";fo
+        }
+
+        function orangeFunction() {
+            document.getElementById("orange").style.backgroundColor="orange";
+        }
+
+        function yellowFunction() {
+            document.getElementById("yellow").style.backgroundColor="yellow";
+        }
+
+        function greenFunction() {
+            document.getElementById("green").style.backgroundColor="green";
+        }
+
+        function blueFunction() {
+            document.getElementById("blue").style.backgroundColor="blue";
+        }
+
+        function indigoFunction() {
+            document.getElementById("indigo").style.backgroundColor="indigo";
+        }
+
+        function violetFunction() {
+            document.getElementById("violet").style.backgroundColor="violet";
+        }
+
+        </script>
+
+</body>
+</html>

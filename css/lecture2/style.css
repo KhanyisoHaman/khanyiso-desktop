@@ -1,0 +1,75 @@
+/* Base Style */
+
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px
+}
+
+h2 {
+    color: purple; 
+    margin: 45px 50px;
+
+}
+
+p {
+    color: green; 
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-top: 12px;
+    padding-left: 45px;
+    
+}
+ 
+header {
+    background-color: aquamarine;
+    margin: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0%;
+    
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+   
+    
+}
+
+a:hover {
+    color: gold;
+    
+}
+
+#container {
+    margin: 0 10%;
+    background-color: rgb(252, 199, 199, 0.5);
+    text-align: left;
+    padding: 2%;
+}
+
+.intro {
+    color: maroon;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: blanchedalmond;
+    border-radius: 15%;
+    
+}
+
+.btn {
+    background-color: brown
+}
+
+.link :hover {
+    background-color: gold;
+}

@@ -1,0 +1,11 @@
+body {
+    font-family: 'Sedgwick Ave', cursive;
+
+    color: rgb(16, 16, 248);  
+
+    background-image: url("west1.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}

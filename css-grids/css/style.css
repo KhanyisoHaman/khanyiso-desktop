@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.item {
+    background-color: rgb(89, 0, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item3 {
+    background-color: rgb(72, 255, 0);
+    grid-column: 2/5;
+}
+
+.noob {
+    background-color: goldenrod;
+    grid-column: span 2;
+    grid-row: span 3;
+}

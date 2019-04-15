@@ -1,0 +1,28 @@
+
+header {
+    background-color: rgba(77, 255, 0, 0.52);
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+    font-size: 50px;
+    color: #07fb27;
+}
+
+article {
+    background-color: blueviolet;
+    border-radius: 6px;
+    font-family: 'Indie Flower', cursive;
+}
+
+a:hover {
+    color: gold;
+    font-size: 100px;
+    transition: color 1s ease-in-out;
+    
+}
+
+body {
+    background-image: linear-gradient(to top right, #ff0000, #ffd700 , blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blanchedalmond;
+}

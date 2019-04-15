@@ -1,0 +1,387 @@
+/*************************
+Base Styles
+*************************/
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: Helvetica, Helvetica Neue, Arial;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .header-container {
+    border-bottom: 20px solid #0B132B;
+  }
+  
+  .footer-container,
+  .main aside {
+    border-top: 20px solid #0B132B;
+  }
+  
+  .header-container,
+  .footer-container,
+  .main aside {
+    background: #67AAF9;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #0b132b;
+  }
+  
+  nav a:hover,
+  nav a:visited {
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 30px 0;
+  }
+  
+  .main article h1 {
+    font-size: 2em;
+  }
+  
+  .main aside {
+    color: white;
+    padding: 0px 5% 10px;
+  }
+  
+  .footer-container footer {
+    color: white;
+    padding: 20px 0;
+  }
+
+  @media only screen and (min-width: 480px) {
+    nav a {
+      float: left;
+      width: 30%;
+      margin: 0 0 0 5%;
+      padding: 25px 1px;
+      margin-bottom: 0;
+      background: #21af21;
+    }
+  
+    nav li:first-child a {
+      margin-left: 0;
+    } 
+  
+    nav li:last-child a {
+      margin-right: 0;
+    }
+  
+  }
+  
+  /* Mobile */
+  
+  @media only screen and (min-width: 768px),
+    only screen and (min-width: 700px) and (orientation: landscape) {
+      .title {
+        float: left;
+        font-size: 1.4em;
+      }
+  
+      nav {
+        float: right;
+        width: 60%;
+      }
+  
+      nav a {
+        padding: 15px 1%;
+      }
+  
+      .main article {
+        float: left;
+        width: 57%;
+      }
+  
+      .main aside {
+        float: right;
+        width: 38%;
+      }
+  
+  }
+  
+  /* Making It Responsive For A Tablet */
+  
+  @media only screen and (min-width: 1140px) {
+    .wrapper {
+      width: 1026px;
+      margin: 0 auto;
+    }
+  
+    .title {
+      font-size: 2em;
+    }
+  
+    nav a {
+      padding: 25px 1%;
+      background: #bb1a78;
+    }
+  }
+  
+  input {
+    width: 350px;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  /* styling  */
+  
+  input.btn {
+    width: 200px;
+    background-color: darkturquoise;
+    text-orientation: mixed;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 700px;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: tan;
+  }
+  
+  ::-moz-placeholder {
+    color: tan;
+  }
+  
+  /* clearfix */
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  .clearfix {
+    *zoom: 1;
+  }
+
+  /* @media only screen and (min-width:680px) {
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+        box-sizing: border-box;
+      }
+      
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      
+      body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      
+      .wrapper {
+        width: 90%;
+        margin: 0 auto;
+      }
+      
+      .header-container {
+        border-bottom: 20px solid rgb(163, 8, 142);
+      }
+      
+      .footer-container,
+      .main aside {
+        border-top: 20px solid rgb(1, 105, 15);
+      }
+      
+      .header-container,
+      .footer-container,
+      .main aside {
+        background: rgb(190, 39, 39);
+      }
+      
+      .title {
+        color: white;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      
+      nav a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px 0;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        background: #0b132b;
+      }
+      
+      nav a:hover,
+      nav a:visited {
+        color: white;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+      
+      .main {
+        padding: 30px 0;
+      }
+      
+      .main article h1 {
+        font-size: 2em;
+      }
+      
+      .main aside {
+        color: white;
+        padding: 0px 5% 10px;
+      }
+      
+      .footer-container footer {
+        color: white;
+        padding: 20px 0;
+      }
+  } */
+
+  /* For Tablet */
+  /* @media only screen and (max-width:900px) {
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+        box-sizing: border-box;
+      }
+      
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      
+      body {
+        font-family: 'Unlock', cursive;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      
+      /* .wrapper {
+        width: 90%;
+        margin: 0 auto; 
+      }
+      
+      .header-container {
+        border-bottom: 20px solid rgba(128, 128, 128, 0.521);
+      }
+      
+      .footer-container,
+      .main aside {
+        border-top: 20px solid rgb(240, 226, 103)
+      }
+      
+      .header-container,
+      .footer-container,
+      .main aside {
+        background: rgb(9, 54, 95);
+      }
+      
+      .title {
+        color: white;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      
+      nav a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px 0;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        background: #0b132b;
+      }
+      
+      nav a:hover,
+      nav a:visited {
+        color: white;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+      
+      .main {
+        padding: 30px 0;
+      }
+      
+      .main article h1 {
+        font-size: 2em;
+      }
+      
+      .main aside {
+        color: white;
+        padding: 0px 5% 10px;
+      }
+      
+      .footer-container footer {
+        color: white;
+        padding: 20px 0;
+      }
+  } */
+
+  
+  /*************************
+  Media Queries
+
+  *************************/
+  /*Media queries are CSS rules that help us include CSS code only when certain conditions are met. These conditions are called media features, and in the case of responsive web design, the media feature most commonly used is width, or more specifically, min-width. However, media queries actually come with many media features, and width is just one of them.*/

@@ -1,0 +1,155 @@
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(104, 102, 102, 0.555);
+}
+
+main {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+header {
+    grid-area: header;
+    grid-column: span 3;
+    grid-row: 1;
+}
+
+nav {
+    grid-area: nav;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+section {
+    grid-area: section;
+    grid-column: 2/ span 2;
+    grid-row: 2;
+}
+
+.first {
+    grid-area: article-first;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.second {
+    grid-area: article-second;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.third {
+    grid-area: article-third;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+footer {
+    grid-area: footer;
+    grid-column: span 3;
+    grid-row: 4;
+}
+
+.grid-item {
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: green;
+}
+
+
+
+/* Responeive Design */
+
+/* Large Desktop */
+
+@media only screen and (max-width:2700px) and (min-width:2300px) {
+    .grid-item {
+        background-color: orange;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (max-width:800px) and (min-width:650px) {   
+    main {
+        grid-template-columns: repeat(2,1fr);
+    } 
+
+    header {
+        grid-column: span 2;
+    }
+
+    section {
+        grid-area: section;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .third {
+        grid-column: span 2;
+        grid-row: 4;
+    }
+
+    footer {
+        grid-column: span 2;
+        grid-row: 5;
+    }
+
+    .grid-item {
+        background-color: blue;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width:500px) and (min-width:300px) {
+    main {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-item {
+        background-color: red;
+    }
+
+    header {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    nav {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    section {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .first {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .second {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .third {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    footer {
+        grid-column: 1;
+        grid-row: 7;
+    }
+}

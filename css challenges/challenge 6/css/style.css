@@ -1,0 +1,67 @@
+ 
+/* Base Styles */
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: 'Lora','PT Serif',  serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: lighter;
+}
+
+header {
+    height: 50vh;
+    background: url(../images/island.jpeg);
+    box-shadow: 2px 2px 3px black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.h1-tag, h5 {
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    background-color: beige;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+
+.container {
+    margin: 10px;
+    margin-left: 260px;
+    width: 100%;
+    max-width: 770px;
+}
+
+hr {
+    width: 80%;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.89);
+    position: sticky;
+    bottom: 0;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    box-shadow: 2   px 2px 5px black;
+}

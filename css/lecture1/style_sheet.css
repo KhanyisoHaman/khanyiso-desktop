@@ -1,0 +1,35 @@
+h1 {
+    color: rebeccapurple; 
+    text-align: center;
+}
+
+p {
+    color: indigo;
+    text-align: center;
+    
+
+}
+
+ul li {
+        text-align: center;
+        text-decoration-line: underline;
+        text-decoration: line-through;
+}
+
+body {
+    background-color: gainsboro;
+    background-image: url(../lecture1/west.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 50px;
+}
+
+/*css syntax
+selector
+set of {}
+property : value; */

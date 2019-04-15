@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JQUERY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <!-- Link my JQUERY -->
+   
+    <style>
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+            display: block !important;
+            position: absolute;
+            transform: translate(0,100px);
+        }
+
+        .red {
+            background-color: red;
+            display: none;
+        }
+
+        .blue {
+            background-color: blue;
+            display: none;
+        }
+
+        .green {
+            background-color: green;
+            display: none;
+        }
+
+        .yellow {
+            background-color: yellow;
+            display: none;
+        }
+
+        .purple {
+            background-color: purple;
+            display: none;
+        }
+
+        button {
+            padding: 10px;
+            text-transform: uppercase;
+            background-color: aqua;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+
+    <div class="circle red"></div>
+    <div class="circle blue"></div>
+    <div class="circle green"></div>
+    <div class="circle yellow"></div>
+    <div class="circle purple"></div>
+
+    <button>Fade In</button>
+    <button class="animate">Animation</button>
+
+</body>
+</html>

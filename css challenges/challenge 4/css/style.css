@@ -1,0 +1,71 @@
+
+body {
+    background-color: azure;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+    float: left;
+}
+
+.box-1 {
+    background-color: rebeccapurple;
+}
+
+/* box-1 hover */
+.box-1:hover {
+    background-color: hotpink;
+}
+.box-1:active {
+    background-color: rebeccapurple;
+}
+
+
+.box-2 {
+    background-color: brown;
+}
+
+/* box-2 hover */
+.box-2:hover {
+    background-color: lawngreen;
+}
+.box-2:active {
+    background-color: brown;
+}
+
+.box-3 {
+    background-color: hotpink;
+}
+
+/* Box-3 hover */
+.box-3:hover {
+    background-color: rebeccapurple;
+    width: 600px;
+}
+.box-3:active {
+    background-color: hotpink;
+}
+
+.box-4 {
+    background-color: lawngreen;
+    
+}
+
+/* box-4 hover */
+.box-4:hover {
+    background-color: brown;
+    width: 50px;
+}
+.box-4:active {
+    background-color: lawngreen;
+    width: 200px
+}
+
+.box-4:focus {
+    background-color: lawngreen;
+}
